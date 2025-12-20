@@ -1,101 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>Ayush Konar | Portfolio</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
-    header { background-color: #222; color: #fff; padding: 20px; text-align: center; }
-    nav a { color: #fff; margin: 0 15px; text-decoration: none; font-weight: bold; }
-    nav a:hover { text-decoration: underline; }
-    main { max-width: 900px; margin: 20px auto; padding: 0 15px; }
-    section { margin-bottom: 30px; }
-    h1, h2, h3 { margin-top: 0; }
-    .contact a { color: #0066cc; text-decoration: none; }
-    .contact a:hover { text-decoration: underline; }
-    footer { text-align: center; padding: 15px 0; background-color: #f5f5f5; margin-top: 30px; }
+    <title>Ayush Konar Portfolio</title>
 
-    /* Profile photo styles */
-    .profile-wrapper {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 12px;
-      margin-top: 10px;
-    }
-    .profile-photo {
-      width: 140px;
-      height: 140px;
-      border-radius: 50%;
-      object-fit: cover;
-      border: 3px solid #fff;
-      box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
-    }
-  </style>
+    <style>
+        body {
+            background-color: pink;
+            font-family: Arial, sans-serif;
+        }
+
+        .header {
+            text-align: center;
+        }
+        .photo {
+            display: block;
+            margin: 20px auto;
+            width: 250px;
+            border-radius: 50%;
+            box-shadow: 0px 8px 20px rgba(0,0,0,0.4);
+        }
+
+        .contact {
+            text-align: center;
+            font-size: 18px;
+        }
+
+        ul {
+            text-align: center;
+            list-style-position: inside;
+        }
+
+        section {
+            width: 70%;
+            margin: auto;
+            text-align: center;
+        }
+
+        aside {
+            margin-top: 40px;
+            text-align: center;
+            font-size: 22px;
+        }
+    </style>
+
 </head>
+
 <body>
-  <header>
-    <h1>Ayush Konar</h1>
-    <p>Computer Science Student | Data Science Specialization</p>
 
-    <!-- Put your photo file as ayush.jpg in the same folder -->
-    <div class="profile-wrapper">
-      <img src="C:\Users\dell\Pictures\Saved Pictures\IMG-20250916-WA0010.jpg" alt="Photo of Ayush Konar" class="profile-photo">
-    </div>
+<div class="header">
+    <h1>My Portfolio</h1>
+    <h2>Ayush Konar</h2>
+</div>
 
-    <nav>
-	<a href="file:///C:/Users/dell/Desktop/web%20dev/first.html">Home</a>
-      <a href="file:///C:/Users/dell/Desktop/web%20dev/second.html">Projects</a>
-      <a href="file:///C:/Users/dell/Desktop/web%20dev/third.html">Contact</a>
 
-    </nav>
-  </header>
+<img src="C:\Users\dell\Pictures\Saved Pictures\IMG-20250916-WA0010.jpg" alt="My Photo" class="photo">
 
-  <main>
-    <section>
-      <h2>About Me</h2>
-      <p>
-        I am a Computer Science undergraduate at Vellore Institute of Technology, specializing in Data Science and focusing on problem solving using Python, SQL, C, and other core technologies.  
-      </p>
-      <p>
-        My interests lie in data-driven applications, machine learning, and full‑stack development, and I enjoy working in collaborative environments to build impactful solutions.  
-      </p>
-    </section>
+<div class="contact">
+    <p>
+        <b>Email:</b> ayushkonar18@gmail.com <br>
+        <b>Phone:</b> 8167824774
+    </p>
+</div>
 
-    <section>
-      <h2>Education</h2>
-      <h3>Vellore Institute of Technology, Tamil Nadu, India</h3>
-      <p>Bachelor of Technology in Computer Science, Specialization in Data Science (Aug 2024 – May 2028).  </p>
+<hr>
 
-      <h3>D.A.V Public School, Asansol, West Bengal, India</h3>
-      <p>Secondary and Higher Secondary Education (Aug 2012 – May 2024).  </p>
-    </section>
+<h3 style="text-align:center;">Quick Links</h3>
+<ul>
+    <li><a href="C:\Users\dell\Desktop\first website\about.html">About Me</a></li>
+    <li><a href="C:\Users\dell\Desktop\first website\skills.html">Projects & Contact</a></li>
+</ul>
 
-    <section>
-      <h2>Experience</h2>
-      <h3>VIT Vellore – Computer Science Student</h3>
-      <p>July 2024 – Present, Vellore, India.  </p>
-      <ul>
-        <li>Specialization in Data Science with emphasis on hands-on problem solving and data visualization.  </li>
-        <li>Worked on projects applying statistical analysis and machine learning on real-world datasets.  </li>
-        <li>Collaborated on group assignments, strengthening teamwork and communication skills.  </li>
-        <li>Actively seeking internships and project opportunities to expand technical expertise.  </li>
-      </ul>
-    </section>
+<hr>
 
-    <section>
-      <h2>Technical Skills</h2>
-      <ul>
-        <li><strong>Languages:</strong> Python, Java, C, C++, SQL (PostgreSQL), R, HTML/CSS, JavaScript.  </li>
-        <li><strong>Frameworks:</strong> Flask, React, FastAPI, Node.js, JUnit, WordPress, Material-UI.  </li>
-        <li><strong>Developer Tools:</strong> Git, Docker, TravisCI, Google Cloud Platform, VS Code, PyCharm, IntelliJ, Eclipse.  </li>
-        <li><strong>Libraries:</strong> pandas, NumPy, Matplotlib, scikit-learn.  </li>
-      </ul>
-    </section>
-  </main>
+<section>
+    <h3>Introduction</h3>
+    <article>
+        <p>
+            I am a Computer Science student specializing in Data Science at VIT.
+            I love programming, learning new technologies, and working on projects.
+        </p>
+    </article>
+</section>
 
-  <footer>
-    <p>&copy; 2025 Ayush Konar</p>
-  </footer>
+<aside>
+    <p><i>"Do your duty sincerely without worrying about the result."</i></p>
+    <p><i>~ Madhav</i></p>
+</aside>
+
 </body>
 </html>
